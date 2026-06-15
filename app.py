@@ -9,9 +9,9 @@ st.write("I've been waiting for so long...")
 
 st.write("Just to tell you...")
 
-response = st.text_input("Hello? Are you still there...")
+evaluation = st.text_input("Hello? Are you still there...")
 
-if response.lower() == "yes" or "y" or "yep":
+if evaluation.lower() == "yes":
 
     st.write("Oh, that's good to hear. It's lonely here in this place.")
 
